@@ -3,7 +3,6 @@
         document.addEventListener("DOMContentLoaded", hentdata);
         const link = "https://spreadsheets.google.com/feeds/list/17Dd7DvkPaFamNUdUKlrFgnH6POvBJXac7qyiS6zNRw0/od6/public/values?alt=json";
 
-
         async function hentdata() {
             const respons = await fetch(link);
             retter = await respons.json();
